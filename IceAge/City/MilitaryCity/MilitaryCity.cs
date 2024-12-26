@@ -5,7 +5,6 @@ namespace IceAge.City.MilitaryCity;
 
 public class MilitaryCity : BaseCity
 {
-    int Strength { get; set; } = 1;
     int Tanks { get; set; } = 0;
     int Aircrafts { get; set; } = 0;
     int Ships { get; set; } = 0;

@@ -11,7 +11,7 @@ public class Family
         FamilyName = familyName;
         Members = new List<FamilyMember>();
     }
-
+    
     // Add member to family
     public void AddMember(FamilyMember member)
     {
@@ -24,6 +24,13 @@ public class Family
         Members.RemoveAll(m => m.Name == memberName);
     }
 
+    /// <summary>
+    /// Not tested, maybe return null if not found
+    /// Not tested, maybe return multiple members with the same name
+    /// </summary>
+    /// <param name="role">needs a role from Role.cs(enum)</param>
+    /// <returns>returns a FamilyMember</returns>
+    
     // Get members by role
     public List<FamilyMember> GetMembersByRole(Role role)
     {

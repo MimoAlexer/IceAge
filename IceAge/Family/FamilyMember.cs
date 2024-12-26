@@ -15,4 +15,6 @@ public class FamilyMember
         Age = age;
         Gender = gender;
     }
+    
+    // TODO: Add more properties and methods: Die method, GetOlder method, GetYounger method, etc.
 }

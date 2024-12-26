@@ -5,6 +5,7 @@ namespace IceAge.City;
 
 public class BaseCity
 {
+    public int Strength { get; set; } = 1;
     private int Population { get; set; } = ActiveMilitaryPersonnel + Zivilians;
     static int Zivilians { get; set; }
     private int Size { get; set; } = 1;
