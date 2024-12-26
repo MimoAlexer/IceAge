@@ -17,7 +17,7 @@ public class Family
         HomeCity = homeCity;
         Families.Add(this);
     }
-    
+
     // Add member to family
     public void AddMember(FamilyMember member)
     {
@@ -77,6 +77,5 @@ public class Family
         return null;
     }
     
-    // TODO: Add method for making kids 1 M + 1 F = 1 C (1 to 3 kids) in 1 Year
     // TODO: Remove random Population maker in Cities
 }

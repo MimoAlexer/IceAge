@@ -15,5 +15,32 @@ public class IronFactory
         Workers = workers;
     }
     
-    //TODO: Needs a System for automatically producing Iron and Steel
+    // Output Iron Ore
+    public void OutputIronOre()
+    {
+        Random random = new Random();
+        IronOre += random.Next(1, 15);
+        if (IronOre > Warehouses * 200)
+        {
+            IronOre = Warehouses * 200;
+        }
+    }
+    
+    // Produce Iron
+    public void ProduceIron()
+    {
+        Random random = new Random();
+        int amount = random.Next(1, 30);
+        if (IronOre < amount)
+        {
+            Iron = IronOre;
+            IronOre = 0;
+        }
+        else
+        {
+            Iron = amount;
+            IronOre -= amount;
+        }
+    }
+    
 }
