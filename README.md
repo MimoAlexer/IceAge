@@ -21,6 +21,7 @@ The IceAge project is a C# application that simulates a family living through di
 - Retrieve family members by name or role
 - Track the current date and update it with custom logic
 - Handle leap years and month transitions
+- War between Contries
 
 ## Installation
 
