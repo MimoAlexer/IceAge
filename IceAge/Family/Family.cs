@@ -1,15 +1,21 @@
+using IceAge.City;
+
 namespace IceAge.Family;
 
 public class Family
 {
     public string FamilyName { get; private set; }
     public List<FamilyMember> Members { get; private set; }
+    public static List<Family> Families = new List<Family>();
+    public BaseCity HomeCity { get; set; }
 
     // Constructor
-    public Family(string familyName)
+    public Family(string familyName, BaseCity homeCity)
     {
         FamilyName = familyName;
         Members = new List<FamilyMember>();
+        HomeCity = homeCity;
+        Families.Add(this);
     }
     
     // Add member to family
@@ -48,4 +54,29 @@ public class Family
     {
         return Members;
     }
+
+    /// <summary>
+    /// Returns the family of the given member when found
+    /// </summary>
+    /// <param name="member">Family of param will be searched</param>
+    /// <returns>Returns Family from param if found, else returns null</returns>
+    
+    public static Family? GetFamilyByMember(FamilyMember member)
+    {
+        foreach (Family family in Families)
+        {
+            foreach (FamilyMember familyMember in family.Members)
+            {
+                if(familyMember == member)
+                {
+                    return family;
+                }
+            }
+        }
+
+        return null;
+    }
+    
+    // TODO: Add method for making kids 1 M + 1 F = 1 C (1 to 3 kids) in 1 Year
+    // TODO: Remove random Population maker in Cities
 }

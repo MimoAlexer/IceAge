@@ -43,14 +43,12 @@ public class MilitaryCity : BaseCity
     {
         Weapons += amount;
     }
-    
-    /// <summary>
-    /// Todo: Need to implement the automatic building of tanks, aircrafts, ships, and weapons
-    /// </summary>
 
     // Update the strength of the city
     public void UpdateStrength()
     {
         Strength = ActiveMilitaryPersonnel + Tanks + Aircrafts + Ships + Weapons;
     }
+    
+    // Todo: Need to implement the automatic building of tanks, aircrafts, ships, and weapons
 }
