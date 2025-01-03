@@ -7,8 +7,16 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <DocumentationFile>bin\Debug\net9.0\IceAge.xml</DocumentationFile>
+    </PropertyGroup>
+
     <ItemGroup>
       <None Remove=".gitignore" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net9.0\IceAge.xml" />
     </ItemGroup>
 
 </Project>

@@ -10,20 +10,37 @@
     <list default="true" id="5e6a0550-6174-4768-b8e0-4c1172634ef8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IceAge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IceAge/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IceAge/IceAge.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/IceAge/IceAge.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IceAge/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IceAge/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IceAge/obj/Debug/net9.0/IceAge.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IceAge/obj/Debug/net9.0/IceAge.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/mimoalexer/RiderProjects/IceAge/IceAge/City/MilitaryCity/MilitaryCity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/mimoalexer/RiderProjects/IceAge/IceAge/Family/Family.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/mimoalexer/RiderProjects/IceAge/IceAge/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2qivhBIc3AgxvZMx1GZKeWj8kGs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,6 +88,8 @@
       <option name="presentableId" value="Default" />
       <updated>1735158326177</updated>
       <workItem from="1735158327354" duration="7567000" />
+      <workItem from="1735212084120" duration="11567000" />
+      <workItem from="1734795814282" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="Add .gitignore to exclude build artifacts, Rider project files, user-specific files, temporary files, and compiled files">
       <option name="closed" value="true" />
@@ -79,7 +99,31 @@
       <option name="project" value="LOCAL" />
       <updated>1735165354312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="WIP Family&#10;WIP War&#10;-Added Diplomicy&#10;-Added Family system&#10;-Added Continents">
+      <option name="closed" value="true" />
+      <created>1735218348959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735218348959</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Resolved WIP Family&#10;WIP Factories&#10;WIP Countries&#10;WIP Cities&#10;-Added Factories">
+      <option name="closed" value="true" />
+      <created>1735223644034</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735223644034</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Resolved WIP Factories(PlasticFactory needs trading system)&#10;Added IBaseInterface.cs">
+      <option name="closed" value="true" />
+      <created>1735242836338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735242836338</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,9 +131,27 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add .gitignore to exclude build artifacts, Rider project files, user-specific files, temporary files, and compiled files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore to exclude build artifacts, Rider project files, user-specific files, temporary files, and compiled files" />
+    <MESSAGE value="WIP Family&#10;WIP War&#10;-Added Diplomicy&#10;-Added Family system&#10;-Added Continents" />
+    <MESSAGE value="Resolved WIP Family&#10;WIP Factories&#10;WIP Countries&#10;WIP Cities&#10;-Added Factories" />
+    <MESSAGE value="Resolved WIP Factories(PlasticFactory needs trading system)&#10;Added IBaseInterface.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolved WIP Factories(PlasticFactory needs trading system)&#10;Added IBaseInterface.cs" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
