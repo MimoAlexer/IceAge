@@ -1,5 +1,7 @@
-namespace IceAge.Time;
 
+/// <summary>
+/// The Month enum represents the months of the year.
+/// </summary>
 public class TimeManager
 {
     String Date { get; set; } = "{Day}, {Month}, {Year}";

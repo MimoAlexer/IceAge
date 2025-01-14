@@ -1,5 +1,3 @@
-namespace IceAge.Time;
-
 public enum Month
 {
     January,

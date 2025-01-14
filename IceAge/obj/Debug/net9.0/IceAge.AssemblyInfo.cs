@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IceAge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02e22b776f77e7a01de2b0ae2e6aa14387874de8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cc0801a1b2064b17e4cd7e5fa04e0698a7097dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("IceAge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IceAge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
